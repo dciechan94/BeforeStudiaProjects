@@ -1,0 +1,57 @@
+# Project: Project1
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = Tic-Tac-Toe_private.res
+OBJ  = main.o CEvent.o CRamki.o CTimer.o funkcje_inicjalizujace.o funkcje_menu.o funkcje_ogolne.o globals.o Kontrolki.o $(RES)
+LINKOBJ  = main.o CEvent.o CRamki.o CTimer.o funkcje_inicjalizujace.o funkcje_menu.o funkcje_ogolne.o globals.o Kontrolki.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib" -mwindows -lmingw32  -lSDLmain  -lSDL  -liberty  -lSDL_ttf -lSDL_image  
+INCS =  -I"C:/Dev-Cpp/include" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include" 
+BIN  = Tic-Tac-Toe.exe
+CXXFLAGS = $(CXXINCS) -I"C:\Dev-Cpp\\include\SDL" -I"C:\Dev-Cpp\\include\SGE" -Dmain=SDL_main  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Tic-Tac-Toe.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "Tic-Tac-Toe.exe" $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+CEvent.o: CEvent.cpp
+	$(CPP) -c CEvent.cpp -o CEvent.o $(CXXFLAGS)
+
+CRamki.o: CRamki.cpp
+	$(CPP) -c CRamki.cpp -o CRamki.o $(CXXFLAGS)
+
+CTimer.o: CTimer.cpp
+	$(CPP) -c CTimer.cpp -o CTimer.o $(CXXFLAGS)
+
+funkcje_inicjalizujace.o: funkcje_inicjalizujace.cpp
+	$(CPP) -c funkcje_inicjalizujace.cpp -o funkcje_inicjalizujace.o $(CXXFLAGS)
+
+funkcje_menu.o: funkcje_menu.cpp
+	$(CPP) -c funkcje_menu.cpp -o funkcje_menu.o $(CXXFLAGS)
+
+funkcje_ogolne.o: funkcje_ogolne.cpp
+	$(CPP) -c funkcje_ogolne.cpp -o funkcje_ogolne.o $(CXXFLAGS)
+
+globals.o: globals.cpp
+	$(CPP) -c globals.cpp -o globals.o $(CXXFLAGS)
+
+Kontrolki.o: Kontrolki.cpp
+	$(CPP) -c Kontrolki.cpp -o Kontrolki.o $(CXXFLAGS)
+
+Tic-Tac-Toe_private.res: Tic-Tac-Toe_private.rc 
+	$(WINDRES) -i Tic-Tac-Toe_private.rc --input-format=rc -o Tic-Tac-Toe_private.res -O coff 

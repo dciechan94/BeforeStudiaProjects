@@ -1,0 +1,18 @@
+C:\Users\Dariusz\AppData\Local\Temporary Projects\MailSender\bin\Debug\MailSender.exe
+C:\Users\Dariusz\AppData\Local\Temporary Projects\MailSender\bin\Debug\MailSender.pdb
+C:\Users\Dariusz\AppData\Local\Temporary Projects\MailSender\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Dariusz\AppData\Local\Temporary Projects\MailSender\obj\x86\Debug\MailSender.Form1.resources
+C:\Users\Dariusz\AppData\Local\Temporary Projects\MailSender\obj\x86\Debug\MailSender.Properties.Resources.resources
+C:\Users\Dariusz\AppData\Local\Temporary Projects\MailSender\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Dariusz\AppData\Local\Temporary Projects\MailSender\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Dariusz\AppData\Local\Temporary Projects\MailSender\obj\x86\Debug\MailSender.exe
+C:\Users\Dariusz\AppData\Local\Temporary Projects\MailSender\obj\x86\Debug\MailSender.pdb
+C:\Users\Dariusz\Documents\Visual Studio 2010\Projects\MailSender\MailSender\obj\x86\Debug\MailSender.exe
+C:\Users\Dariusz\Documents\Visual Studio 2010\Projects\MailSender\MailSender\obj\x86\Debug\MailSender.pdb
+C:\Users\Dariusz\Documents\Visual Studio 2010\Projects\MailSender\MailSender\bin\Debug\MailSender.exe
+C:\Users\Dariusz\Documents\Visual Studio 2010\Projects\MailSender\MailSender\bin\Debug\MailSender.pdb
+C:\Users\Dariusz\Documents\Visual Studio 2010\Projects\MailSender\MailSender\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Dariusz\Documents\Visual Studio 2010\Projects\MailSender\MailSender\obj\x86\Debug\MailSender.Form1.resources
+C:\Users\Dariusz\Documents\Visual Studio 2010\Projects\MailSender\MailSender\obj\x86\Debug\MailSender.Properties.Resources.resources
+C:\Users\Dariusz\Documents\Visual Studio 2010\Projects\MailSender\MailSender\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Dariusz\Documents\Visual Studio 2010\Projects\MailSender\MailSender\obj\x86\Debug\GenerateResource.write.1.tlog
